@@ -1,2 +1,4 @@
+from django.shortcuts import render
+
 def home(request):
-  return ""
+  return render(request, "taskbuster/index.html", {})
